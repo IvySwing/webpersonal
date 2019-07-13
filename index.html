@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>webPersonal by Kori</title>
+        <title>web Personal by Kori</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
@@ -9,7 +9,6 @@
     </head>
     <body>
         <div class="menu-container">
-            <h1>webPersonal by Kori</h1>
             <nav>
                 <ul>
                     <li> <a href="index.html">Home</a></li>
@@ -19,14 +18,25 @@
             </nav>
         </div>
         <div class="container">
-            <img src="assets/images/bright-bulb-close-up.jpg">
+            <img src="assets/images/pexels-photo-821754.jpg">
             <div class="text-block">
-                <p>"In a real sense all life is inter-related.  All men are caught in an inescapable network of mutuality, tied in a single garment of destiny.  Whatever affects one directly affects all indirectly.  I can never be what I ought to be until you are what you ought to be, and you can never be what you ought to be until I am what I  ought to be.  This is the inter-related stucture of reality" - Rev. Martin Luther King Jr.</p>
+                <h2 style="color: #2836A0; font-size: 40px;">Kori B. Riddick</h2>
+                <h2 style="color: #D8732B; font-size: 40px;">Front-End</h2>
+                <h2 style="color: #2C2D46; font-size: 40px;">Web</h2>
+                <h2 style="color: #2C2D46; font-size: 40px;">Developer</h2>
+                <button onclick="goToAbout()">want to learn more?</button>
+                <p id="linkAbout"></p>
             </div>
         </div>
             <footer>
-                <p>&#169 2019 webPersonal by Kori By Kori B. Riddick</p>
-                <a href="https://www.linkedin.com/in/kori-riddick"><i class="fab fa-linkedin" style="font-size: 36px;"></i></a>
+                <p>&#169 2019 web Personal by Kori</p>
             </footer>
+        <script>
+            function goToAbout(){
+                var str = "go to my About Me page";
+                var result = str.link("about.html");
+                document.getElementById("linkAbout").innerHTML= result;
+            }
+        </script>
     </body>
 </html>
