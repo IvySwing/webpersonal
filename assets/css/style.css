@@ -15,10 +15,6 @@ nav a{
 .container{
     position: relative;
 }
-#logo{
-    height: 70px;
-    width: 70px;
-}
 .text-block{
     position: absolute;
     top: 260px;
@@ -32,8 +28,8 @@ nav a{
     line-height: 70%;
 }
 button{
-    color:  #F9FBFC;
-    font-size: 20px;
+    color: #F9FBFC;
+    font-size: 15px;
     background-color: #2C2D46;
     border-radius: 80px;
 }
@@ -49,5 +45,4 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 10px;
 }
