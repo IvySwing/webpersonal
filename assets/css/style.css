@@ -12,7 +12,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:#2C2D46;
+    background-color: #2C2D46;
     padding-top: 4px;
     padding-bottom: 4px;
     line-height: 1%;
@@ -49,9 +49,9 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: #D9B59C;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #D9B59C;
 }
