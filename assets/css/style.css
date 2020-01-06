@@ -1,62 +1,40 @@
+.color-primary{
+    color: #2836A0;
+}
+.color-secondary{
+    color: #D8732B;
+}
+.color-dark{
+    color: #2C2D46;
+}
 body{
     display: flex;
+    flex-direction: column;
     height: 100vh;
-    background: no-repeat center center fixed;
-    background-color: #DFDDDE;
-    background-size: cover;
 }
-#menu-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.header{
     background-color: #2C2D46;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    line-height: 1%;
 }
-.nav-item active{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-}
-a{
+.header a{
     color: #F9FBFC;
 }
+.content{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% auto;
+    background: #DFDDDE url(../images/pexels-photo-821754.jpg) no-repeat fixed center center;
+}
 .text-block{
-    display:inline-block;
-    position:fixed;
-    padding-top: 175px;
-    padding-left: 525px;
+    padding: 15px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-transform: uppercase;
+    background: rgba(255,255,255,0.5);
+    
 }
-@media screen and (max-width: 415px){
-    body{
-        display: flex;
-        background: no-repeat center center fixed;
-        background-size: 100% 100vh;
-        padding-top: 70px;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-    .text-block{
-        position: fixed;
-        padding-top: 20px;
-        padding-left: 150px;
-    }
-}
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.footer{
+    margin-top: auto;
     background-color: #D9B59C;
 }

@@ -1,64 +1,31 @@
 body{
-    height: 890px;
-    width: 100%;
-    background-color: #DFDDDE;
-}
-#menu-container{
-    display: flex;
+    display:grid;
     flex-direction: row;
-    justify-content:flex-end;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color:#2C2D46;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    line-height: 1%;
+    height: 100vh;
+    background: #DFDDDE;
 }
-.nav-item active{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
+.header{
+    background-color: #2C2D46;
 }
-a{
+.header a{
     color: #F9FBFC;
 }
 .projects{
+    flex-basis: 100%;
+}
+.project-list{
+    border: 4px solid;
+    border-color: #2C2D46;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: #2C2D46;
-    padding-top: 100px;
-}
-.project-list{
-    width: auto;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    border: 4px solid;
-    border-color: #2C2D46;
+    padding: 25px;
 }
 #link{
     color: blueviolet;
     padding-right: 50px;
 }
-@media screen and (max-width: 450px){
-    body{
-        height: 1440px;
-    }
-    #menu-container{
-        line-height: 0.5%;
-    }
-    .projects{
-        padding-top: 150px;
-    }
-}
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    margin-top: auto;
     background-color: #D9B59C;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }

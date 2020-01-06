@@ -1,56 +1,26 @@
-#menu-container{
+body{
     display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color:#2C2D46;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    line-height: 1%;
+    flex-direction: column;
+    height: 100vh;
 }
-li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
+.header{
+    background-color: #2C2D46;
 }
-.nav-item active{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-}
-a{
+.header a{
     color: #F9FBFC;
 }
-.image{
-    height: 650px;
-    padding-top: 50px;
+.content{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #DFDDDE;
-    background-size: 100%;
-    background-position: 50%;
+    background-size: 100% auto;
 }
-.image-text{
-    position: absolute;
+.content-text{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 20px;
     text-align: center;
-    padding-top: 140px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-@media screen and (max-width: 450px){
-    .image-text{
-        padding-top: 200px;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 15px;
-    }
-    .image{
-        height: 850px;
-        padding-top: 100px;
-    }
 }
 .icon{
     display: flex;
@@ -61,12 +31,6 @@ i{
     color: #2C2D46;
 }
 footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    margin-top: auto;
     background-color: #D9B59C;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
