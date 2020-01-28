@@ -1,10 +1,10 @@
-.color-primary{
+.title-block__title-primary{
     color: #2836A0;
 }
-.color-secondary{
+.title-block__title-secondary{
     color: #D8732B;
 }
-.color-dark{
+.title-block__title-tertiary{
     color: #2C2D46;
 }
 body{
@@ -12,11 +12,20 @@ body{
     flex-direction: column;
     height: 100vh;
 }
-.header{
+.header, .header a{
     background-color: #2C2D46;
-}
-.header a{
     color: #F9FBFC;
+}
+.footer{
+    margin-top: auto;
+    background-color: #D9B59C;
+}
+
+/* index css */
+.content{
+    flex-basis: 100%;
+    display: flex;
+    background-color: #DFDDDE;
 }
 .title-block{
     flex-basis: 100%;
@@ -34,7 +43,41 @@ body{
     background: rgba(255,255,255,0.5);
     
 }
-.footer{
-    margin-top: auto;
-    background-color: #D9B59C;
+
+/* about css */
+.about-content{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: 100% auto;
+}
+.content-text{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+}
+.icon, .icon i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #2C2D46;
+}
+
+/* projects css */
+.projects{
+    flex-basis: 100%;
+}
+.project-list{
+    border: 4px solid;
+    border-color: #2C2D46;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #2C2D46;
+    padding: 25px;
+}
+#link{
+    color: blueviolet;
+    padding-right: 50px;
 }
