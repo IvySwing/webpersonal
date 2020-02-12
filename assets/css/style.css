@@ -12,8 +12,13 @@ body{
     flex-direction: column;
     height: 100vh;
 }
-.header, .header a{
+.header{
     background-color: #2C2D46;
+}
+button{
+    background-color: red;
+}
+a {
     color: #F9FBFC;
 }
 .footer{
