@@ -1,3 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navbar-toggler{
+    background-color: #D9B59C;
+}
+.navbar {
+    background: #2C2D46;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #DFDDDE;
+}
 .title-block__title-primary{
     color: #2836A0;
 }
@@ -6,20 +20,6 @@
 }
 .title-block__title-tertiary{
     color: #2C2D46;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-.header{
-    background-color: #2C2D46;
-}
-button{
-    background-color: #D9B59C;
-}
-#link-color{
-    color: #F9FBFC;
 }
 .footer{
     margin-top: auto;
@@ -39,6 +39,7 @@ button{
     justify-content: center;
     background-size: 100% auto;
     background: #DFDDDE url(../images/pexels-photo-821754.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 .title-block__content{
     padding: 15px;
