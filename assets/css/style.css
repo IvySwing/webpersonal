@@ -63,27 +63,11 @@ body{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-align: center;
+    padding: 20px;
 }
 .icon, .icon i{
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #2C2D46;
-}
-
-/* projects css */
-.projects{
-    flex-basis: 100%;
-}
-.project-list{
-    border: 4px solid;
-    border-color: #2C2D46;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    color: #2C2D46;
-    padding: 25px;
-}
-#link{
-    color: blueviolet;
-    padding-right: 50px;
 }
