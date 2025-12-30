@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/IvySwing/webpersonal#readme",
   "devDependencies": {
-    "serve": "^14.1.1"
+    "serve": "^14.2.5"
   }
 }
