@@ -1,10 +1,11 @@
 {
   "name": "webpersonal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "serve": "serve"
   },
   "repository": {
@@ -16,8 +17,29 @@
   "bugs": {
     "url": "https://github.com/IvySwing/webpersonal/issues"
   },
-  "homepage": "https://github.com/IvySwing/webpersonal#readme",
   "devDependencies": {
     "serve": "^14.1.1"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.3",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
