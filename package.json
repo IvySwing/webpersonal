@@ -1,22 +1,11 @@
 {
   "name": "webpersonal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests\"",
     "serve": "serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IvySwing/webpersonal.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IvySwing/webpersonal/issues"
-  },
-  "homepage": "https://github.com/IvySwing/webpersonal#readme",
   "devDependencies": {
     "serve": "^14.1.1"
   }
