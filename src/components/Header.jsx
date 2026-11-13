@@ -7,7 +7,8 @@ function Header() {
       <Container>
         {/* <Navbar.Brand href="#">My Site</Navbar.Brand> */}
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-        <Navbar.Collapse id="basic-navbar-nav">
+        {/* <Navbar.Collapse id="basic-navbar-nav"> */}
+        <Navbar.Collapse id="nav-link">
           <Nav className="me-auto">
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
