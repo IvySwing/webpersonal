@@ -17,6 +17,7 @@ function Home() {
           </p>
             <button className="title-block__invitation" onClick={() => setIsRevealed((prev) => !prev)}>A little curiosity goes a long way</button>
             {isRevealed && <p className="title-block__description">You found me!</p>}
+            {isRevealed && <div className="surprise__object" aria-hidden='true'></div>}
         </div>
       </div>
     </main>
