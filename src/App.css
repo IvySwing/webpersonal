@@ -1,6 +1,7 @@
 body{
     margin: 0;
     min-height: 100vh;
+    background-color: #F8F5EE;
 }
 
 #root {
@@ -10,14 +11,14 @@ body{
 }
 
 .title-block__title-primary{
-    color: #2836A0;
+    color: #252438;
 }
 .title-block__title-secondary{
-    color: #D8732B;
+    color: #F07838;
     font-family: 'DM Sans', sans-serif;
 }
 .title-block__title-tertiary{
-    color: #2C2D46;
+    color: #252438;
     font-family: 'Instrument Serif', serif;
     font-size: clamp(2.5rem, 5vw, 5rem);
     font-weight: 400;
@@ -26,13 +27,14 @@ body{
     font-style: italic;
 }
 .title-block__description {
-    color: #2C2D46;
+    color: #252438;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
 }
 .footer{
     margin-top: auto;
-    background-color: #D9B59C;
+    /* background-color: #D9B59C; */
+    background-color: transparent;
     padding: 10px;
     text-align: left;
 }
@@ -48,7 +50,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F7F3EC;
+    background: #F8F5EE;
     background-size: cover;
 }
 .title-block__content{
@@ -83,13 +85,14 @@ body{
 
 /* Navbar background */
 .navbar {
-  background-color: #2C2D46;
+  /* background-color: #2C2D46; */
+  background-color: transparent;
   padding: 0.8rem 1rem;
 }
 
 /* Nav link styling */
 .nav-link {
-  color: #DFDDDE !important;
+  color: #252438 !important;
   font-size: 1rem;
   margin-right: 1rem;
   transition: color 0.3s ease;
