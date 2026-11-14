@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 function Home() {
+  const [isRevealed, setIsRevealed] = useState(false)
+
+  
+
   return (
     <main className="content">
       <div className="title-block">
@@ -9,7 +15,8 @@ function Home() {
           <p className="title-block__description">
             I build thoughtful digital experiences where technology, creativity and human connection meet.
           </p>
-            <p>A little curiosity goes a long way</p>
+            <button className="title-block__invitation" onClick={() => setIsRevealed((prev) => !prev)}>A little curiosity goes a long way</button>
+            {isRevealed && <p className="title-block__description">You found me!</p>}
         </div>
       </div>
     </main>
