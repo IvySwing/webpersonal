@@ -2,8 +2,7 @@ import { useState } from "react";
 
 function Home() {
   const [isRevealed, setIsRevealed] = useState(false)
-
-  
+  const [animated, setAnimated] = useState(false)
 
   return (
     <main className="content">
@@ -15,9 +14,21 @@ function Home() {
           <p className="title-block__description">
             I build thoughtful digital experiences where technology, creativity and human connection meet.
           </p>
-            <button className="title-block__invitation" onClick={() => setIsRevealed((prev) => !prev)}>A little curiosity goes a long way</button>
-            {isRevealed && <p className="title-block__description">You found me!</p>}
-            {isRevealed && <div className="surprise__object" aria-hidden='true'></div>}
+            <button className="title-block__invitation"
+            onClick={
+              () => {
+                setIsRevealed((prev) => !prev)
+                setAnimated(false)
+            }}
+            >
+              A little curiosity goes a long way
+            </button>
+            {animated && <p className="title-block__description">You found me!</p>}
+            {isRevealed &&
+              <div className="surprise__object"
+              onAnimationEnd={() => setAnimated(true)}
+              aria-hidden='true'>
+              </div>}
         </div>
       </div>
     </main>
