@@ -139,12 +139,27 @@ body{
   padding: 0.8rem 1rem;
 }
 
+.navbar-brand {
+    color: #252438;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #F07838;
+}
+
 /* Nav link styling */
 .nav-link {
-  color: #252438 !important;
+  color: #252438;
   font-size: 1rem;
   margin-right: 1rem;
   transition: color 0.3s ease;
+}
+
+.navbar .nav-link.active {
+    color: #F07838;
 }
 
 /* Toggler button (hamburger) styling */
@@ -152,12 +167,12 @@ body{
   border-color: #D9B59C;
 }
 
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(245,245,245,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-}
+} */
 
 /* Collapsed menu spacing for mobile */
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
   .nav-link {
     margin-right: 0;
     padding: 0.5rem 0;
