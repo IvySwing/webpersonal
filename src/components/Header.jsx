@@ -5,7 +5,7 @@ function Header() {
   return (
     <Navbar expand="sm">
       <Container>
-        <LinkContainer to="/"><Navbar.Brand>Kori B. Riddick</Navbar.Brand></LinkContainer>
+        {/* <LinkContainer to="/"><Navbar.Brand>Kori B. Riddick</Navbar.Brand></LinkContainer> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
