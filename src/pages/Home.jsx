@@ -21,7 +21,7 @@ function Home() {
                 setAnimated(false)
             }}
             >
-              A little curiosity goes a long way
+              A little curiosity goes a long way <span className="arrow"aria-hidden="true">↗</span>
             </button>
             {animated && <p className="title-block__description">You found me!</p>}
             {isRevealed &&

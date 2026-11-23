@@ -32,12 +32,26 @@ body{
     font-weight: 400;
 }
 .title-block__invitation {
-    color: #252438;
+    color: #F07838;
     font-family: 'DM Sans', sans-serif;
     font-size: 0.875rem;
     font-weight: 500;
     letter-spacing: 0.05em;
+    background: transparent;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
 }
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.5s ease-in;
+}
+
+.title-block__invitation:hover .arrow {
+    transform: translate(4px, -4px);
+}
+
 .surprise__object {
     width: 50px;
     height: 50px;
@@ -118,6 +132,20 @@ body{
 
 .work-block {
     text-align: left;
+    border-bottom: 1px solid #D9B59C;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.work-block h1 {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    color: #252438;
+}
+
+.work-block p {
+    font-family: 'DM Sans', sans-serif;
+    color: #252438;
 }
 
 .project-content {
@@ -132,6 +160,21 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    border-bottom: 1px solid #D9B59C;
+    padding-bottom: 30px;
+}
+
+.project-block h2 {
+    font-family: 'Instrument Serif', serif;
+    color: #252438;
+}
+
+.project-block__details p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.project-block__title {
+    color: #F07838;
 }
 
 .project-block:nth-child(even) {
