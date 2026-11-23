@@ -1,3 +1,5 @@
+import ProjectCard from "../components/ProjectCard"
+
 function Work () {
     return (
         <main className="work-content">
@@ -8,39 +10,21 @@ function Work () {
                 </p>
             </section>
             <section className="project-content">
-                <article className="project-block">
-                    <div className="project-block__details">
-                        <p className="project-block__title">01 / Product Engineering</p>
-                        <h2>Better Kitchen</h2>
-                        <p>Receipt Scanning and Inventory Entry</p>
-                        <p>Link to Case Study</p>
-                    </div>
-                    <div className="project-block__visuals">
-                        <p></p>
-                    </div>
-                </article>
-                <article className="project-block">
-                    <div className="project-block__details">
-                        <p className="project-block__title">02 / Full Stack Engineering</p>
-                        <h2>Infinity Keys</h2>
-                        <p>Discord Engagement System</p>
-                        <p>Link to Case Study</p>
-                    </div>
-                    <div className="project-block__visuals">
-                        <p></p>
-                    </div>
-                </article>
-                <article className="project-block">
-                    <div className="project-block__details">
-                        <p className="project-block__title">03 / Creative Technology</p>
-                        <h2>Poem Generator</h2>
-                        <p>Interactive Poetry through Motion and Play</p>
-                        <p>Link to Case Study</p>
-                    </div>
-                    <div className="project-block__visuals">
-                        <p></p>
-                    </div>
-                </article>
+                <ProjectCard
+                    category="01 / Product Engineering"
+                    title="Better Kitchen" 
+                    description="Receipt Scanning and Inventory Entry"
+                />
+                <ProjectCard
+                    category="02 / Full Stack Engineering"
+                    title="Infinity Keys"
+                    description="Discord Engagement System"
+                />
+                <ProjectCard
+                    category="03 / Creative Technology"
+                    title="Poem Generator"
+                    description="Interactive Poetry through Motion and Play"
+                />
             </section>
         </main>
     )
