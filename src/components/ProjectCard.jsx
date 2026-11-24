@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function ProjectCard({category, title, description, caseStudyLink}) {
     return (
         <article className="project-block">
@@ -5,7 +7,7 @@ function ProjectCard({category, title, description, caseStudyLink}) {
                 <p className="project-block__title">{category}</p>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <p>Link to Case Study</p>
+                <Link to={caseStudyLink}>View Case Study Link</Link>
             </div>
             <div className="project-block__visuals">
                 <p></p>

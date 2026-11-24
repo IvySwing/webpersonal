@@ -14,16 +14,19 @@ function Work () {
                     category="01 / Product Engineering"
                     title="Better Kitchen" 
                     description="Receipt Scanning and Inventory Entry"
+                    caseStudyLink="/work/better-kitchen"
                 />
                 <ProjectCard
                     category="02 / Full Stack Engineering"
                     title="Infinity Keys"
                     description="Discord Engagement System"
+                    caseStudyLink="/work/infinity-keys"
                 />
                 <ProjectCard
                     category="03 / Creative Technology"
                     title="Poem Generator"
                     description="Interactive Poetry through Motion and Play"
+                    caseStudyLink="/work/poem-generator"
                 />
             </section>
         </main>
